@@ -10,6 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+//Replace Apikey
 const openai = new OpenAI({
     apiKey: "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"
 });
